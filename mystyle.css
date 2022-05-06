@@ -63,7 +63,7 @@ aside {
     position: fixed;
     display: flex;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 .page{
     border-top: 2px solid #cacaca;
@@ -71,6 +71,6 @@ aside {
 .pic_travel_page img{
     border-radius: 7px;
 }
-explain{
-    float: right;
+.pic_favorite_page img{
+    border-radius: 90px;
 }
