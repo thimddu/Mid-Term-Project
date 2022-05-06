@@ -1,10 +1,13 @@
 body {
     font-family: 'Gowun Batang', serif;
 }
+logo {
+    padding: 50px;
+}
 #menubar ul{
     margin: 0;
     padding: 0;
-    width: 1000px;
+    width: 100%;
     text-align: center;
 }
 #menubar ul li {
@@ -18,9 +21,19 @@ body {
     color: black;
 }
 #menubar ul li a:hover{
-    color:darkorange;
+    color:dodgerblue;
 }
 #profile {
     
     position: absolute;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+table tr th td{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
 }
