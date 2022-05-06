@@ -77,3 +77,7 @@ aside {
 youtube:hover{
     box-shadow: 0 0 20px rgba(255, 225, 1, 0.5);
 }
+table tr td span {
+    color: blue; 
+    font-weight: bold;
+}
