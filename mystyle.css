@@ -10,18 +10,19 @@ logo {
     width: 100%;
     text-align: center;
 }
-#menubar ul li {
+ul li {
     display: inline-block;
     list-style-type: none;
     padding: 0px 50px;
 
 }
-#menubar ul li a{
+ul li a{
     text-decoration: none;
     color: black;
 }
-#menubar ul li a:hover{
+ul li a:hover{
     color:dodgerblue;
+    font-weight: 800;
 }
 #profile {
     
@@ -36,4 +37,27 @@ table tr th td{
     font-size: 30px;
     text-decoration: none;
     color: black;
+    padding-top: 70px;
+}
+#text{
+    color: darkgray;
+    font-size: 13px;
+    padding-top: 50px;
+}
+aside {
+    width : 0vw;
+    height: 50vh;
+    left: 0;
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.page{
+    border-top: 2px solid #cacaca;
+}
+.pic_travel{
+    border-radius: 5px;
+    border-bottom: 2px solid #cacaca;
 }

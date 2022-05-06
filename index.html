@@ -13,30 +13,64 @@
             <h1 id = "logo">Thimddu</h1>
             <nav>
                 <div id = "menuBar">
-                    <ul> 
-                        <li><a href = ""><b>Home</b></a></li>
-                        <li><a href = ""><b>What I LOVE</b></a></li>
-                        <li><a href = ""><b>Wish</b></a></li>
+                    <ul> <!--상단의 메뉴 바 (대분류)-->
+                        <li><a href = "#Home"><b>Home</b></a></li>
+                        <li><a href = "#love"><b>What I LOVE</b></a></li>
+                        <li><a href = "#Wish"><b>Wish</b></a></li>
                     </ul>
                 </div>
                 <hr>
             </nav>
         </header>
-        <section>
+        <aside>
+            <ul> <!--왼쪽의 아이콘 바 (소분류)-->
+                <li><a href="#Home">🏡</a></li> <!-- 앵커 for 'home' memu -->
+                <li><a href="#love">🌎</a></li> <!-- 앵커 for 'What I LOVE' memu-->
+                <li><a href="#Exciting">🎇</a></li> 
+                <li><a href="#Favorite">🎧</a></li>
+                <li><a href="#Wish">📅</a></li> <!-- 앵커 for 'Wish' memu-->
+                <li><a href="#BucketList">📃</a></li>
+            </ul>
+        </aside>
+        <section id = "Home">
             <table>
                 <tr>
                     <td><strong>"Hello, I'm Sumin"</strong></td>
                 </tr>
                 <tr>
                     <div style="text-align: center">
-                        <img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\mimo.png" 
+                        <img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\img\mimo.png" 
                         width="220" height="220">
                     </div>
                 </tr>
                 <tr>
-
+                    <td id = "text" style="margin-bottom: 40%;">
+                        Hi, My name is Sim Sumin, a third-year software major at Dankook University 🏛<br>
+                        Born on July 16, 2001, I am 22 years old in now ✨<br>
+                        I live with my parents, an older brother and a cute cat, Coco. 😻<br>
+                        Scroll through the screen to find out more about me 👇 <br>
+                    </td>
                 </tr>
             </table>
+        </section>
+        <section id = "love" class = "page">
+            <table class = "pic_travel_page">
+                <tr>
+                    <td><img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\img\travel1.jpg" 
+                        width="220" height="220"></td>
+                    <td><img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\img\travel2.jpg" 
+                        width="220" height="220"></td>
+                </tr>
+                <tr>
+                    <td><img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\img\travel4.jpg" 
+                        width="220" height="220"></td>
+                    <td><img src="C:\Users\82103\OneDrive\바탕 화면\2022_1학기\오픈소스_송영상\Mid-term-project\img\travel3.jpg" 
+                        width="220" height="220"></td>
+                </tr>
+            </table>
+        </section>
+        <section id = "Wish">
+
         </section>
     </body>
 </html>
