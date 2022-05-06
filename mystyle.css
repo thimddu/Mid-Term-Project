@@ -1,0 +1,26 @@
+body {
+    font-family: 'Gowun Batang', serif;
+}
+#menubar ul{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    text-align: center;
+}
+#menubar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 50px;
+
+}
+#menubar ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menubar ul li a:hover{
+    color:darkorange;
+}
+#profile {
+    
+    position: absolute;
+}
